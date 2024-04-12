@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Faculty Profile</h1>
+    <form action="/faculty/createSession" method="post">
+        <button type="submit">Create Session</button>
+    </form>
+    <form action="/stopsession" method="post">
+        <button type="submit">Stop Session</button>
+    </form>
+
+    <h1>Your Sessions</h1>
+    <p><%= facultysessions.Sessions[0].SessionID%></p>
+</body>
+</html>
